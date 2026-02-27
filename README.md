@@ -161,7 +161,11 @@ brew install poppler
 
 ## 安装步骤
 
-### 1. 克隆项目
+### 1. 获取项目
+
+如果您已经拥有本项目的本地副本，请直接进入项目目录。
+
+如果需要从远程仓库克隆，请使用：
 
 ```bash
 git clone <repository_url>
