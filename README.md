@@ -168,7 +168,7 @@ brew install poppler
 如果需要从远程仓库克隆，请使用：
 
 ```bash
-git clone <repository_url>
+git clone https://github.com/yang-zhuang/engineering_audit_agent.git
 cd engineering_audit_agent
 ```
 
