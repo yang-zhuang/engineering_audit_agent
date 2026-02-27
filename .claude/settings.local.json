@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cat:*)",
+      "Bash(find:*)",
+      "Bash(sqlite3:*)",
+      "Bash(python:*)",
+      "Bash(langgraph dev:*)",
+      "Bash(dir:*)",
+      "Bash(ping:*)",
+      "Bash(nul:*)",
+      "Bash(del:*)",
+      "Bash(set USE_STATIC_GRAPH=1:*)",
+      "Bash(echo:*)",
+      "Bash(\"D:\\Code\\engineering_audit_agent\\.env\")",
+      "Bash(findstr:*)",
+      "Bash(wc:*)",
+      "Bash(git init:*)",
+      "Bash(git remote add:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

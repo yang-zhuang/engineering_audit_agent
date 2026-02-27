@@ -1,0 +1,23 @@
+{
+  "$schema": "https://langgra.ph/schema.json",
+  "dependencies": [
+    "langgraph",
+    "langchain",
+    "pydantic",
+    "./audit_agent"
+  ],
+  "graphs": {
+    "engineering_audit": "./audit_agent/graphs/root_graph.py:build_graph"
+  },
+  "env": "./.env",
+  "input_schemas": {
+    "engineering_audit": {
+      "document_root_path": {
+        "type": "string",
+        "description": "Root directory path for engineering documents (containing PDF and image files). Example: 'D:/Documents/Engineering_Projects' or '/data/engineering_docs'",
+        "default": "",
+        "placeholder": "Enter the full path to document directory..."
+      }
+    }
+  }
+}
